@@ -6,6 +6,11 @@ body {
   background-color: #ffb4b0;
   border: 3px solid black;
 }
+
+.filterBox {
+  background-color: #4dd7fa;
+  border: 3px solid black;
+}
 /*
 
 navbar background color is the Red = #ffb4b0
