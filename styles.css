@@ -21,6 +21,12 @@ body {
   width: 20%;
 }
 
+.titleBox {
+  background-color: #fefac0;
+  color: #785616;
+  border: 3px solid black;
+  width: 70%;
+}
 
 /*
 
