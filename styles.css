@@ -1,16 +1,27 @@
 body {
   font-family: Verdana, Geneva, sans-serif;
 }
-
+.divSpacing {
+  margin: 10px;
+  padding: 5px;
+}
 .barForNav {
   background-color: #ffb4b0;
   border: 3px solid black;
 }
 
+.lowerBoxes {
+  display: flex;
+  justify-content: space-around;
+}
+
 .filterBox {
   background-color: #4dd7fa;
   border: 3px solid black;
+  width: 20%;
 }
+
+
 /*
 
 navbar background color is the Red = #ffb4b0
