@@ -12,22 +12,28 @@ body {
 
 .lowerBoxes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .filterBox {
+
   background-color: #4dd7fa;
   border: 3px solid black;
   width: 20%;
 }
 
 .titleBox {
+
   background-color: #fefac0;
-  color: #785616;
   border: 3px solid black;
   width: 70%;
 }
 
+
+.textcolor {
+  color: #785616;
+  font-weight: normal;
+}
 /*
 
 navbar background color is the Red = #ffb4b0
