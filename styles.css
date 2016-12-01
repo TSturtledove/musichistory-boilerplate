@@ -10,6 +10,11 @@ body {
   border: 3px solid black;
 }
 
+.listStyle {
+  display: inline;
+}
+
+
 .lowerBoxes {
   display: flex;
   justify-content: space-between;
@@ -34,6 +39,10 @@ body {
   color: #785616;
   font-weight: normal;
 }
+
+
+
+
 /*
 
 navbar background color is the Red = #ffb4b0
