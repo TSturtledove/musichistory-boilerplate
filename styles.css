@@ -62,6 +62,14 @@ end of the checkboxes using pseudo classes
 }
 
 
+.filterbuttonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.filterbutton {
+  font-size: 20px;
+}
 
 .titleBox {
   padding: 5px;
