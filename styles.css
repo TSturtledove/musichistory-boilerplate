@@ -40,6 +40,15 @@ body {
   width: 20%;
 }
 
+.mainlabel {
+  display: block;
+  margin: 10px 0;
+}
+
+.ChoiceBox {
+  margin-bottom: 5px;
+}
+
 .checkers {
   display: flex;
   flex-flow: column;
