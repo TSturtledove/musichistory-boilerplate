@@ -40,6 +40,26 @@ body {
   width: 20%;
 }
 
+.checkers {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 125px;
+}
+
+/*
+The following is another way to add the label like elements to the
+end of the checkboxes using pseudo classes
+*/
+[type=checkbox]:after {
+  font-size: 1.2em;
+    content: attr(value);
+    margin: -3px 15px;
+    vertical-align: top;
+    white-space:nowrap;
+    display: inline-block;
+}
 
 
 
