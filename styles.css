@@ -13,9 +13,39 @@ body {
 .listStyle {
   display: flex;
   justify-content: flex-start;
-  list-style: ;
+  list-style: none;
 
 }
+
+.listStyle ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+.listStyle li:not(:first-child):before {
+  content: "|";
+}
+
+.songlistStyle {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+
+}
+
+.songlistStyle ul{
+  padding: 10px;
+  margin-right: 10px;
+
+}
+
+.songlistStyle li:not(:first-child):before {
+  content: " | ";
+}
+
+
+
 
 
 .lowerBoxes {
@@ -39,6 +69,7 @@ body {
 
 
 .textcolor {
+  margin-left: 10px;
   color: #785616;
   font-weight: normal;
 }
