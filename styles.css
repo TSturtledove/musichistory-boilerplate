@@ -11,7 +11,10 @@ body {
 }
 
 .listStyle {
-  display: inline;
+  display: flex;
+  justify-content: flex-start;
+  list-style: ;
+
 }
 
 
