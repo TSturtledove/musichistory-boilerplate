@@ -27,6 +27,30 @@ body {
   content: "|";
 }
 
+
+.lowerBoxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterBox {
+  padding: 25px;
+  background-color: #4dd7fa;
+  border: 3px solid black;
+  width: 20%;
+}
+
+
+
+
+.titleBox {
+  padding: 5px;
+  background-color: #fefac0;
+  border: 3px solid black;
+  width: 75%;
+}
+
+
 .songlistStyle {
   display: flex;
   justify-content: flex-start;
@@ -44,28 +68,6 @@ body {
   content: " | ";
 }
 
-
-
-
-
-.lowerBoxes {
-  display: flex;
-  justify-content: space-between;
-}
-
-.filterBox {
-  padding: 25px;
-  background-color: #4dd7fa;
-  border: 3px solid black;
-  width: 20%;
-}
-
-.titleBox {
-  padding: 5px;
-  background-color: #fefac0;
-  border: 3px solid black;
-  width: 75%;
-}
 
 
 .textcolor {
